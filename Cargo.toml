@@ -9,3 +9,6 @@ edition = "2018"
 [dependencies]
 actix-web = "1.0"
 tera = "0.11"
+lazy_static = "1.4"
+tokio-postgres = { version = "0.3", features = ["with-chrono"] }
+chrono = "0.4"
